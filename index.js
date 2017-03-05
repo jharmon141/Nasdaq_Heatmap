@@ -25,7 +25,7 @@ stocks.getnasdaq100()
             }
         }
 
-        console.log(stock);
+        // console.log(stock);
         app.get("/", function(req, res) {
             return res.render("index",{
                 stock: stock 
