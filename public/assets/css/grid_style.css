@@ -5,6 +5,7 @@ body {
 .wrapper {
     background-color: white;
 }
+
 .cell {
     width: 10%;
     float: left;
