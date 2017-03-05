@@ -1,0 +1,24 @@
+{
+  "name": "nasdaq_heatmap",
+  "version": "1.0.0",
+  "description": "Nasdaq Top 100 Heatmap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jharmon141/Nasdaq_Heatmap.git"
+  },
+  "author": "jharmon141",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jharmon141/Nasdaq_Heatmap/issues"
+  },
+  "homepage": "https://github.com/jharmon141/Nasdaq_Heatmap#readme",
+  "dependencies": {
+    "express": "^4.15.0",
+    "express-handlebars": "^3.0.0",
+    "yahoo-nasdaq": "^1.0.0"
+  }
+}

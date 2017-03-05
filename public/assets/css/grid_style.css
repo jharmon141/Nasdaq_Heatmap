@@ -1,0 +1,75 @@
+.cell {
+    width: 10%;
+    float: left;
+    border: 1px solid #403f3f;
+    text-align: center;
+    color: white;
+    -moz-transition: all .1s ease-in;
+    -o-transition: all .1s ease-in;
+    -webkit-transition: all .1s ease-in;
+    transition: all .1s ease-in;  
+    font-family: 'Pontano Sans', sans-serif;
+}
+
+.pctchange {
+    margin-bottom: 12%;
+    margin-top: 0%;
+    font-size: 12px;
+}
+
+.symbol {
+    margin-top: 12%;
+    margin-bottom: 0%;
+    font-size: 19px;
+}
+
+.wrapper {
+    margin: 30px;
+}
+
+[data^="-"] {
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left,rgba(255,0,0,0.58),rgba(255,0,0,1)); /*Safari 5.1-6*/
+    background: -o-linear-gradient(right,rgba(255,0,0,0.58),rgba(255,0,0,1)); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(right,rgba(255,0,0,0.58),rgba(255,0,0,1)); /*Fx 3.6-15*/
+    background: linear-gradient(to right, rgba(255,0,0,0.58), rgba(255,0,0,1)); /*Standard*/
+}
+
+[data^="-"]:hover {
+    background: darkred;
+}
+
+[data^="+"] {
+    background-color: green;
+    background: -webkit-linear-gradient(left,rgba(255,0,0,0.58),rgba(255,0,0,1)); /*Safari 5.1-6*/
+    background: -o-linear-gradient(right,rgba(255,0,0,0.58),rgba(255,0,0,1)); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(right,rgba(255,0,0,0.58),rgba(255,0,0,1)); /*Fx 3.6-15*/
+    background: linear-gradient(to right, rgba(50,205,50,0.6), rgba(3,193,3,1)); /*Standard*/
+}
+
+[data^="+"]:hover {
+    background: darkgreen;
+}
+[data^="+0"] {
+    background-color: black;
+    /* background: -webkit-linear-gradient(left,rgba(255,0,0,0.58),rgba(255,0,0,1)); /*Safari 5.1-6*/ */
+    /* background: -o-linear-gradient(right,rgba(255,0,0,0.58),rgba(255,0,0,1)); /*Opera 11.1-12*/ */
+    /* background: -moz-linear-gradient(right,rgba(255,0,0,0.58),rgba(255,0,0,1)); /*Fx 3.6-15*/ */
+    background: linear-gradient(to right, rgba(50,205,50,0.68), rgba(50,205,50,1)); /*Standard*/
+}
+
+[data^="-0"] {
+    background-color: darkred;
+    background: -webkit-linear-gradient(left,rgba(241,0,0,1), rgba(142,12,12,1)); /*Safari 5.1-6*/
+    background: -o-linear-gradient(right,rgba(241,0,0,1), rgba(142,12,12,1)); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(right,rgba(241,0,0,1), rgba(142,12,12,1)); /*Fx 3.6-15*/
+    background: linear-gradient(to right, rgba(241,0,0,1), rgba(142,12,12,1)); /*Standard*/
+}
+
+[data="0"] {
+    background-color: #565555;
+}
+
+[data="0"]:hover {
+    background: #383131;
+}
