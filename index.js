@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 8000;
 const exphbs = require("express-handlebars");
 const stocks = require('yahoo-nasdaq');
 
