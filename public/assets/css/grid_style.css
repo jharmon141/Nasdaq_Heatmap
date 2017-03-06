@@ -6,6 +6,9 @@ body {
     background-color: white;
 }
 
+.wrapper p {
+    cursor: default;
+}
 .cell {
     width: 10%;
     float: left;
@@ -81,4 +84,42 @@ body {
 
 [data="0"]:hover {
     background: #383131;
+}
+h1, h3 {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+div#container {
+  width: 580px;
+  margin: 100px auto 0 auto;
+  padding: 20px;
+  background: #000;
+  border: 1px solid #1a1a1a;
+}
+
+div.profile {
+  width: 70px;
+  text-align: center;
+  float: left;
+  margin: 10px 37px 30px 38px;
+}
+
+/* HOVER STYLES */
+span.pop-up {
+  display: block;
+  text-align: center;
+  position: absolute;
+  margin-top: -100px;
+  width: 120px;
+  padding: 0px 13px;
+  background: #eeeeee;
+  color: #000000;
+  border: 1px solid #1a1a1a;
+  font-size: 90%;
+}
+
+div.clear {
+  clear: both;
 }

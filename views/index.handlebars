@@ -1,7 +1,17 @@
 <div class="wrapper">
     <div class="table-responsive">
             {{#each stock}}
-                <div class="cell" data={{pctchange}}><p class="symbol">{{Symbol}}</p><p class="pctchange">{{pctchange}}</p></div>
-            {{/each}}
+                <div class="trigger">
+                    <div class="cell" data={{pctchange}}><p class="symbol">{{Symbol}}</p><p class="pctchange">{{pctchange}}</p>
+                        <span class="pop-up">
+                            <div>
+                                <p>{{Name}} ({{lastsale}})</p>
+                                <p>Net Change: {{netchange}}</p>
+                                <p>% Change: {{pctchange}}</p>
+                            </div>
+                        </span>
+                    </div>
+                {{/each}}
+                </div>
     </div>
 </div>
