@@ -16,7 +16,7 @@
     "url": "https://github.com/jharmon141/Nasdaq_Heatmap/issues"
   },
   "engines": {
-      "node": 7.7.3
+      "node": "7.7.3"
   },
   "homepage": "https://github.com/jharmon141/Nasdaq_Heatmap#readme",
   "dependencies": {
