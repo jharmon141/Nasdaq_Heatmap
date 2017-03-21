@@ -34,6 +34,10 @@ stocks.getnasdaq100()
     })
     .catch((err) => console.error(err));
 
+app.get("/index.js", function(req, res) {
+    res.sendFile(__dirname + '/index.js');
+})
+
 app.listen(PORT, function() {
   console.log("App listening on PORT " + PORT);
 });

@@ -17,6 +17,11 @@
         {{{ body }}}
         <script type="text/javascript">
 $(document).ready(function() {
+
+    $.get( "../../index.js", function( data ) {
+        console.log(data);
+    });
+
     $("span.pop-up").hide()
 
         $(".cell").on('click', function(){
