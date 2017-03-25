@@ -4,6 +4,7 @@ const PORT = process.env.PORT || 8000;
 const exphbs = require("express-handlebars");
 const stocks = require('yahoo-nasdaq');
 
+
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 app.use(express.static(__dirname + '/public'));
